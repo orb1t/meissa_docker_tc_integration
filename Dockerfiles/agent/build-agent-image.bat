@@ -1,0 +1,1 @@
+docker build -t orb1t/meissa-agent .

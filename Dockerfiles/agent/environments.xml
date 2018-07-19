@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <environment name="localhost">
+    <reportapi>http://localhost/ReportApi</reportapi>
+    <crm>
+      <app>http://localhost:8081</app>
+      <admin login="admin" password="test"/>
+    </crm>
+    <brand name="localhost">
+      <brandname>umarkets</brandname>
+      <myaccount>http://localhost:8082</myaccount>
+      <publicapi>http://localhost/PublicApi</publicapi>
+      <cardprocessing>http://localhost:8083</cardprocessing>
+      <redirect></redirect>
+    </brand>
+  </environment>
+
+  <environment name="localdomains">
+    <reportapi></reportapi>
+    <crm>
+      <app>http://localhost/CrmApp</app>
+      <admin login="admin" password="test"/>
+    </crm>
+    <brand name="my">
+      <brandname></brandname>
+      <myaccount></myaccount>
+      <publicapi></publicapi>
+      <cardprocessing></cardprocessing>
+      <redirect></redirect>
+    </brand>
+  </environment>
+
+  <environment name="integration">
+    <reportapi>https://report-api.crm-int.dev</reportapi>
+    <crm>
+      <app>http://back.crm-int.dev</app>
+      <admin login="admin" password="test"/>
+    </crm>
+    <brand name="umarkets">
+      <brandname></brandname>
+      <myaccount>https://my-umarkets.crm-int.dev</myaccount>
+      <publicapi>https://api-umarkets.crm-int.dev</publicapi>
+      <cardprocessing>https://payment-umarkets.crm-int.dev</cardprocessing>
+      <redirect>https://r-umarkets.crm-int.dev</redirect>
+    </brand>
+    <brand name="maximarkets">
+      <brandname></brandname>
+      <myaccount>https://myaccount-maximarkets.crm-int.dev</myaccount>
+      <publicapi>https://publicapi-maximarkets.crm-int.dev</publicapi>
+      <cardprocessing>https://payment-maximarkets.crm-int.dev</cardprocessing>
+      <redirect>https://r-maximarkets.crm-int.dev</redirect>
+    </brand>
+  </environment>
+
+  <environment name="uat">
+    <reportapi>https://test-report-api.maxi-crm.com</reportapi>
+    <crm>
+      <app>https://test-back.maxi-crm.com</app>
+      <admin login="adminAt" password="test"/>
+    </crm>
+    <brand name="umarkets">
+      <brandname>uat.umarkets</brandname>
+      <myaccount>https://test-my.umarkets.com</myaccount>
+      <publicapi>https://test-api.umarkets.com</publicapi>
+      <cardprocessing>https://test-cardprocessing.umarkets.com</cardprocessing>
+      <redirect>https://test-r.umarkets.com</redirect>
+    </brand>
+    <brand name="maximarkets">
+      <brandname>uat.maximarkets</brandname>
+      <myaccount>https://test-myaccount.maximarkets.org</myaccount>
+      <publicapi>https://test-publicapi.maximarkets.org</publicapi>
+      <cardprocessing>https://test-cardprocessing.maximarkets.org</cardprocessing>
+      <redirect>https://test-r.maximarkets.org</redirect>
+    </brand>
+  </environment>
+
+  <environment name="azure">
+    <reportapi>https://stage-report-api.maxi-crm.com</reportapi>
+    <crm>
+      <app>https://stage-back.maxi-crm.com</app>
+      <admin login="admin" password="test"/>
+    </crm>
+    <brand name="umarkets">
+      <brandname>stage.umarkets</brandname>
+      <myaccount>https://stage-my.umarkets.com</myaccount>
+      <publicapi>https://stage-api.umarkets.com</publicapi>
+      <cardprocessing>https://stage-pay.umarkets.com</cardprocessing>
+      <redirect>https://stage-r.umarkets.com</redirect>
+    </brand>
+    <brand name="maximarkets">
+      <brandname>stage.maximarkets</brandname>
+      <myaccount>https://stage-myaccount.maximarkets.ru</myaccount>
+      <publicapi>https://stage-publicapi.maximarkets.ru</publicapi>
+      <cardprocessing>https://stage-pay.maximarkets.ru</cardprocessing>
+      <redirect>https://stage-r.maximarkets.ru</redirect>
+    </brand>
+  </environment>
+</root>
