@@ -20,9 +20,9 @@ services:
     volumes:
       - ..\AgentsTemp:C:\Users\ContainerAdministrator\AppData\Local\Temp
       - ..\allure-results:C:\_meissa_\allure-results
-      - ..\GHPReporter\_GHPReporter_NUnit_Report\0:C:\_GHPReporter_NUnit_Report
-      - ..\GHPReporter\_GHPReporter_SpecFlow_Report\0:C:\_GHPReporter_SpecFlow_Report
-      - ..\GHPReporter\_GHPReporter_Core_Report\0:C:\_GHPReporter_Core_Report
+#      - ..\GHPReporter\_GHPReporter_NUnit_Report\0:C:\_GHPReporter_NUnit_Report
+#      - ..\GHPReporter\_GHPReporter_SpecFlow_Report\0:C:\_GHPReporter_SpecFlow_Report
+#      - ..\GHPReporter\_GHPReporter_Core_Report\0:C:\_GHPReporter_Core_Report
 
   meissa-agent2:
     image: orb1t/meissa-agent
@@ -36,9 +36,9 @@ services:
     volumes:
       - ..\AgentsTemp:C:\Users\ContainerAdministrator\AppData\Local\Temp
       - ..\allure-results:C:\_meissa_\allure-results
-      - ..\GHPReporter\_GHPReporter_NUnit_Report\0:C:\_GHPReporter_NUnit_Report
-      - ..\GHPReporter\_GHPReporter_SpecFlow_Report\0:C:\_GHPReporter_SpecFlow_Report
-      - ..\GHPReporter\_GHPReporter_Core_Report\0:C:\_GHPReporter_Core_Report
+#      - ..\GHPReporter\_GHPReporter_NUnit_Report\0:C:\_GHPReporter_NUnit_Report
+#      - ..\GHPReporter\_GHPReporter_SpecFlow_Report\0:C:\_GHPReporter_SpecFlow_Report
+#      - ..\GHPReporter\_GHPReporter_Core_Report\0:C:\_GHPReporter_Core_Report
 
   meissa-agent3:
     image: orb1t/meissa-agent
@@ -52,9 +52,9 @@ services:
     volumes:
       - ..\AgentsTemp:C:\Users\ContainerAdministrator\AppData\Local\Temp
       - ..\allure-results:C:\_meissa_\allure-results
-      - ..\GHPReporter\_GHPReporter_NUnit_Report\0:C:\_GHPReporter_NUnit_Report
-      - ..\GHPReporter\_GHPReporter_SpecFlow_Report\0:C:\_GHPReporter_SpecFlow_Report
-      - ..\GHPReporter\_GHPReporter_Core_Report\0:C:\_GHPReporter_Core_Report
+#      - ..\GHPReporter\_GHPReporter_NUnit_Report\0:C:\_GHPReporter_NUnit_Report
+#      - ..\GHPReporter\_GHPReporter_SpecFlow_Report\0:C:\_GHPReporter_SpecFlow_Report
+#      - ..\GHPReporter\_GHPReporter_Core_Report\0:C:\_GHPReporter_Core_Report
 
   meissa-agent4:
     image: orb1t/meissa-agent
@@ -68,6 +68,6 @@ services:
     volumes:
       - ..\AgentsTemp:C:\Users\ContainerAdministrator\AppData\Local\Temp
       - ..\allure-results:C:\_meissa_\allure-results
-      - ..\GHPReporter\_GHPReporter_NUnit_Report\0:C:\_GHPReporter_NUnit_Report
-      - ..\GHPReporter\_GHPReporter_SpecFlow_Report\0:C:\_GHPReporter_SpecFlow_Report
-      - ..\GHPReporter\_GHPReporter_Core_Report\0:C:\_GHPReporter_Core_Report
+#      - ..\GHPReporter\_GHPReporter_NUnit_Report\0:C:\_GHPReporter_NUnit_Report
+#      - ..\GHPReporter\_GHPReporter_SpecFlow_Report\0:C:\_GHPReporter_SpecFlow_Report
+#     - ..\GHPReporter\_GHPReporter_Core_Report\0:C:\_GHPReporter_Core_Report
