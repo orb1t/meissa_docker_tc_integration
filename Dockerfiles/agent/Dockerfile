@@ -25,4 +25,5 @@ ADD "environments.xml" "C:\Users\ContainerAdministrator\AppData\environments.xml
 
 WORKDIR "/apps/meissa"
 
-CMD meissa.exe testAgent --testServerUrl="http://"%MEISSA_TEST_SERVER_ADDR%:%MEISSA_TEST_SERVER_PORT% --testAgentTag=%MEISSA_TEST_AGENT_TAG% --testAgentRunTimeout=%MEISSA_TEST_AGENT_RUN_TIMEOUT% --testTechnology="NUnit"
+# CMD meissa.exe testAgent --testServerUrl="http://"%MEISSA_TEST_SERVER_ADDR%:%MEISSA_TEST_SERVER_PORT% --testAgentTag=%MEISSA_TEST_AGENT_TAG% --testAgentRunTimeout=%MEISSA_TEST_AGENT_RUN_TIMEOUT% --testTechnology="NUnit"
+CMD meissa.exe testAgent --testServerUrl="http://"%MEISSA_TEST_SERVER_ADDR%:%MEISSA_TEST_SERVER_PORT% --testAgentTag=%MEISSA_TEST_AGENT_TAG% --testAgentRunTimeout=%MEISSA_TEST_AGENT_RUN_TIMEOUT%
