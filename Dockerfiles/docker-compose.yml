@@ -39,35 +39,3 @@ services:
 #      - ..\GHPReporter\_GHPReporter_NUnit_Report\0:C:\_GHPReporter_NUnit_Report
 #      - ..\GHPReporter\_GHPReporter_SpecFlow_Report\0:C:\_GHPReporter_SpecFlow_Report
 #      - ..\GHPReporter\_GHPReporter_Core_Report\0:C:\_GHPReporter_Core_Report
-
-  meissa-agent3:
-    image: orb1t/meissa-agent
-    depends_on:
-      - meissa-server
-    environment:
-      - MEISSA_TEST_SERVER_ADDR=meissa-server
-      - MEISSA_TEST_SERVER_PORT=5000
-    links: 
-      - meissa-server
-    volumes:
-      - ..\AgentsTemp:C:\Users\ContainerAdministrator\AppData\Local\Temp
-      - ..\allure-results:C:\_meissa_\allure-results
-#      - ..\GHPReporter\_GHPReporter_NUnit_Report\0:C:\_GHPReporter_NUnit_Report
-#      - ..\GHPReporter\_GHPReporter_SpecFlow_Report\0:C:\_GHPReporter_SpecFlow_Report
-#      - ..\GHPReporter\_GHPReporter_Core_Report\0:C:\_GHPReporter_Core_Report
-
-  meissa-agent4:
-    image: orb1t/meissa-agent
-    depends_on:
-      - meissa-server
-    environment:
-      - MEISSA_TEST_SERVER_ADDR=meissa-server
-      - MEISSA_TEST_SERVER_PORT=5000
-    links: 
-      - meissa-server
-    volumes:
-      - ..\AgentsTemp:C:\Users\ContainerAdministrator\AppData\Local\Temp
-      - ..\allure-results:C:\_meissa_\allure-results
-#      - ..\GHPReporter\_GHPReporter_NUnit_Report\0:C:\_GHPReporter_NUnit_Report
-#      - ..\GHPReporter\_GHPReporter_SpecFlow_Report\0:C:\_GHPReporter_SpecFlow_Report
-#     - ..\GHPReporter\_GHPReporter_Core_Report\0:C:\_GHPReporter_Core_Report
